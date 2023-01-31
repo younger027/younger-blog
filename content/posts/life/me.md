@@ -31,4 +31,4 @@ hi,我是younger，go后端开发。
 ### 为什么建立自己Blog
 人这一生呢，生不带来，去不带走的。总得留点东西在这个世界上，证明你来过。
 
-![avatar](/Users/rockey-lyy/Desktop/avatar.jpg)
+![avatar](https://youngergo.cn/images/life/me/avatar.jpg)
