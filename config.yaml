@@ -140,7 +140,7 @@ params:
   label:
     text: "Younger's Blog"
     #icon: "img/Q.gif"
-    icon: "https://www.sulvblog.cn/Q.gif"
+    icon: "https://youngergo.cn/images/life/me/avatar.jpg"
     iconHeight: 35
 
   # analytics:  #谷歌分析
