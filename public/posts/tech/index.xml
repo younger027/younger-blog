@@ -5,6 +5,16 @@
     <link>https://www.youngergo.cn/posts/tech/</link>
     <description>Recent content in 👨🏻‍💻 技术 on Younger&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://www.youngergo.cn/posts/tech/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 02 Feb 2023 17:13:40 +0800</lastBuildDate><atom:link href="https://www.youngergo.cn/posts/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go sync.mutex源码解析</title>
+      <link>https://www.youngergo.cn/posts/tech/go-sync.mutex/</link>
+      <pubDate>Thu, 02 Feb 2023 17:13:40 +0800</pubDate>
+      
+      <guid>https://www.youngergo.cn/posts/tech/go-sync.mutex/</guid>
+      <description>开端 今天学习下go里面的sync.mutex的实现以及相关扩展知识。 锁的介绍 首先，计算机中的锁是为了控制并发情况下，对同一资源的并发访问。锁</description>
+    </item>
+    
   </channel>
 </rss>

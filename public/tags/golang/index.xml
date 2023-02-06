@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Younger&#39;s Blog</title>
-    <link>https://www.youngergo.cn/</link>
-    <description>Recent content on Younger&#39;s Blog</description>
+    <title>golang on Younger&#39;s Blog</title>
+    <link>https://www.youngergo.cn/tags/golang/</link>
+    <description>Recent content in golang on Younger&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Feb 2023 17:13:40 +0800</lastBuildDate><atom:link href="https://www.youngergo.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Feb 2023 17:13:40 +0800</lastBuildDate><atom:link href="https://www.youngergo.cn/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go sync.mutex源码解析</title>
       <link>https://www.youngergo.cn/posts/tech/go-sync.mutex/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://www.youngergo.cn/posts/tech/go-sync.mutex/</guid>
       <description>开端 今天学习下go里面的sync.mutex的实现以及相关扩展知识。 锁的介绍 首先，计算机中的锁是为了控制并发情况下，对同一资源的并发访问。锁</description>
-    </item>
-    
-    <item>
-      <title>Me</title>
-      <link>https://www.youngergo.cn/posts/life/me/</link>
-      <pubDate>Tue, 31 Jan 2023 18:56:21 +0800</pubDate>
-      
-      <guid>https://www.youngergo.cn/posts/life/me/</guid>
-      <description>hi,我是younger，go后端开发。 为什么建立自己Blog 人这一生呢，生不带来，去不带走的。总得留点东西在这个世界上，证明你来过。</description>
     </item>
     
   </channel>

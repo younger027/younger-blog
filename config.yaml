@@ -37,8 +37,8 @@ languages:
     profileMode:
       enabled: true
       title: (〃'▽'〃)
-      subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👏🏼欢迎光临素履(Sulv)的博客<br/>👇联系方式"
-      imageUrl: "img/Q.gif" #图片放在static/img/Q.gif
+      subtitle: "知不足而奋进，望远山而前行<br/>👇联系方式"
+      imageUrl: "https://youngergo.cn/images/life/me/avatar.jpg" #图片放在static/img/Q.gif
       imageTitle:
       imageWidth: 150
       imageHeight: 150
@@ -116,19 +116,19 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/xyming108"
+      url: "https://github.com/younger027"
     - name: twitter
-      url:  "img/twitter.png"
+      url:  "https://twitter.com/gnayauL027"
     - name: facebook
       url: "https://www.facebook.com/profile.php?id=100027782410997"
     - name: instagram
-      url: "img/instagram.png"
+      url: "https://www.instagram.com/alwaysbeyoung925/"
     - name: QQ
       url: "img/qq.png"
     - name: WeChat
       url: "img/wechat.png"
     - name: email
-      url: "mailto:1931559710@qq.com"
+      url: "mailto:1538697392@qq.com"
     - name: RSS
       url: "index.xml"
 
@@ -148,11 +148,11 @@ params:
   #         SiteVerificationTag: "XYZabc"
 
   assets:
-    favicon: "img/Q.gif"
-    favicon16x16: "img/Q.gif"
-    favicon32x32: "img/Q.gif"
-    apple_touch_icon: "Q.gif"
-    safari_pinned_tab: "Q.gif"
+    favicon: "https://youngergo.cn/images/life/me/avatar.jpg"
+    favicon16x16: "https://youngergo.cn/images/life/me/avatar.jpg"
+    favicon32x32: "https://youngergo.cn/images/life/me/avatar.jpg"
+    apple_touch_icon: "https://youngergo.cn/images/life/me/avatar.jpg"
+    safari_pinned_tab: "https://youngergo.cn/images/life/me/avatar.jpg"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
