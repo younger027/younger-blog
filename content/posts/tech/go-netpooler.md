@@ -1,0 +1,11 @@
+go netpooler-网络io的实现细节:
+
+首先，client连接server的时候，listener会通过accept函数接受到一个新的connection，每一个connection会启动一个goroutine来处理读写，accept会将该connection的fd连带goroutine信息封装注册到epoll的监听列表中，当G调用conn.read或者conn.write等需要阻塞等待的函数时，会调用gopark将当前G挂起休眠，让P执行下一个G。往后会由Go scheduler在循环调度runtime.schedule()函数或者sysmon监控线程中调用runtime.netpoll以获取已就绪的G列表并通过inhectglist把G放入全局调度队列或者当前P队列中去执行。
+
+当IO实现发生之后，netpoller是通过runtime.netpoll函数唤醒那些I/O wait状态的G。它的主要逻辑是：
+
+- 根据调用方的入参delay，设置对应的epollwait的timeout值
+- 调用epollwait等待发生了可读可写的事件fd
+- 循环遍历epollwait返回的事件列表，处理对应的读写事件类型，组装可运行的G链表并返回
+
+runtime.netpoll在很多场景下都会被调用。它会调用epoll_wait系统函数从epoll的eventpoll.rdllist就绪双向列表返回，从而得到了就绪的socket fd列表，并取出最初调用epoll_ctl时保存的上下文信息恢复G。所以执行完netpoll之后，会返回一个就绪的G链表（包含对应的就绪fd）接下来将就绪的G通过injectglist加入到全局调度队列或者P的本地队列去执行。
