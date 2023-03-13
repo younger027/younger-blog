@@ -244,3 +244,4 @@ Load代码就比较简单了，对比Store相信你肯定能完全理解。
 - https://zhuanlan.zhihu.com/p/343563035
 - https://www.cyub.vip/2021/04/05/Golang%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%97%E4%B9%8Batomic%E5%BA%95%E5%B1%82%E5%AE%9E%E7%8E%B0/
 - https://blog.csdn.net/lotluck/article/details/78793468
+- https://coolshell.cn/articles/20793.html
